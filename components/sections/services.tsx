@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 export function Services() {
   return (
-    <section id="services" className="py-24 px-4 bg-surface/50">
+    <section id="services" className="py-24 px-4 bg-surface/50 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           title="Our Specialities"

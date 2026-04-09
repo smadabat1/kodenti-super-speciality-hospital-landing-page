@@ -87,7 +87,7 @@ export function ChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300, damping: 25 }}
-            className="fixed bottom-6 right-6 z-50 w-[350px] h-[450px] rounded-2xl border border-border/50 bg-surface shadow-2xl shadow-black/40 flex flex-col overflow-hidden"
+            className="fixed bottom-6 right-4 z-50 w-[calc(100vw-2rem)] max-w-87.5 h-112.5 rounded-2xl border border-border/50 bg-surface shadow-2xl shadow-black/40 flex flex-col overflow-hidden"
           >
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 bg-surface-card border-b border-border/50">

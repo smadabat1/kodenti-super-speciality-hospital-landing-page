@@ -105,7 +105,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 px-4 bg-surface/40">
+    <section id="contact" className="py-24 px-4 bg-surface/40 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           title="Book an Appointment"

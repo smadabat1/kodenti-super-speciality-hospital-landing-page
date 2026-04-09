@@ -15,7 +15,7 @@ export function Testimonials() {
   }));
 
   return (
-    <section className="py-24 px-4">
+    <section className="py-24 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           title="What Our Patients Say"

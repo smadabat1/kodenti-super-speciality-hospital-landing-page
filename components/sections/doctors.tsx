@@ -9,7 +9,7 @@ export function Doctors() {
   const slideVariants = [slideInLeft, slideInRight];
 
   return (
-    <section id="doctors" className="py-24 px-4">
+    <section id="doctors" className="py-24 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           title="Meet Our Experts"
