@@ -1,0 +1,3 @@
+Kondeti Super Speciality Hospitals.. PLOT NO:-132,133, opposite Jagruthi women’s college, vivekananda colony, Tukkuguda, Maheshwaram, Hyderabad, Telangana 501359
+ 
+Kondeti Super Speciality Hospitals in Hyderabad is dedicated to providing top-quality healthcare with a patient-first approach. Led by experienced specialists like Dr. Sowmya Sri (Obstetrician & Gynecologist) and Dr. Pramod Kumar K.R (Physician & Diabetologist), we offer a wide range of services, including gynecology, infertility treatment, cardiology, orthopedics, neurology, pediatrics, general surgery, and emergency care. With advanced facilities and compassionate care, we ensure the best treatment for every patient. Visit us for expert medical services tailored to your needs.
