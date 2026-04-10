@@ -113,23 +113,19 @@ export function About() {
             </motion.div>
           </motion.div>
 
-          {/* Image Placeholder */}
+          {/* Hospital Image */}
           <motion.div variants={slideInRight} className="relative">
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-gold/20 bg-gradient-to-br from-surface to-surface-card relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-4">
-                    <Heart className="w-12 h-12 text-gold/40" />
-                  </div>
-                  <p className="text-muted-foreground/50 text-sm">
-                    Hospital Image
-                  </p>
-                </div>
-              </div>
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-gold/20 relative">
+              <img
+                src="/images/hospital-image.png"
+                alt="Kondeti Super Speciality Hospital"
+                className="w-full h-full object-cover"
+              />
+              {/* Subtle gold overlay */}
+              <div className="absolute inset-0 bg-linear-to-t from-background/30 to-transparent pointer-events-none" />
               {/* Decorative gold corner accents */}
-              <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-gold/30 rounded-tl-2xl" />
-              <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-gold/30 rounded-br-2xl" />
+              <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-gold/40 rounded-tl-2xl" />
+              <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-gold/40 rounded-br-2xl" />
             </div>
           </motion.div>
         </motion.div>

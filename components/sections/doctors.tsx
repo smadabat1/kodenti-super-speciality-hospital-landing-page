@@ -40,10 +40,12 @@ export function Doctors() {
                 }}
                 className="mx-auto mb-6"
               >
-                <div className="w-28 h-28 rounded-full bg-gradient-to-br from-gold/20 to-gold/5 flex items-center justify-center mx-auto ring-2 ring-gold/30 ring-offset-2 ring-offset-surface-card">
-                  <span className="font-heading text-2xl font-bold text-gold">
-                    {doctor.initials}
-                  </span>
+                <div className="w-28 h-28 rounded-full mx-auto ring-2 ring-gold/30 ring-offset-2 ring-offset-surface-card overflow-hidden">
+                  <img
+                    src={doctor.image}
+                    alt={doctor.name}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </motion.div>
 
